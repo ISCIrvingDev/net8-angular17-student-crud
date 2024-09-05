@@ -1,0 +1,6 @@
+  // Comandos para Tailwind CSS
+* Ref: https://tailwindcss.com/docs/guides/angular
+
+* Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
