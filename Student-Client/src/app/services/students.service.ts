@@ -7,9 +7,9 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class StudentsService {
-  private urlApi = 'https://localhost:7023/api';
+  private urlApi = 'http://localhost:5279/api';
 
   constructor(private http: HttpClient) { }
 
-  getStudets = (): Observable<Student[]> => this.http.get<Student[]>('/students');
+  getStudets = (): Observable<Student[]> => this.http.get<Student[]>(`${this.urlApi}/students`);
 }
