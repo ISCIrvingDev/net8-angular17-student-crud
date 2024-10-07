@@ -1,0 +1,3 @@
+dotnet tool install --global dotnet-ef -> Instala EF Tools de manera global
+dotnet-ef migrations add Initial -> Inicializa una migracion de codigo a BD (Code First)
+dotnet-ef database update -> Actualiza la BD de acuerdo a las migrtaciones realizadas
